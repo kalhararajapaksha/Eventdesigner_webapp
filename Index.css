@@ -9,18 +9,25 @@ header{
 }
 
 header video{
-	position:absolute;
-	top:50%;
+	
+	top:10%;/*50*/
 	left:50%;
 	min-width:100%;
 	min-height:100%;
 	width:auto;
 	height:auto;
-	z-index:0;
+	z-index:0;/*0*/
 	-ms-transform:translateX(-50%) translateY(-50%);
 	-moz-transform:translateX(-50%) translateY(-50%);
 	-webkit-transform:translateX(-50%) translateY(-50%);
+	position:fixed;/*1*/
 }
+
+.parallax{
+	height:300px;
+	paddingom:50px;
+	padding-top:50px;
+	}
 
 header .container{
 	position:relative;
@@ -55,3 +62,14 @@ header.overlay{
 .login_btn{
 	margin-left:1vw;
 }
+.searchbtn{border-color:white;
+           border-style:solid;
+	border-width:1.5px;
+   margin-left:0px;}
+
+
+.bg-color-white{background-color:white;}
+.section{position:absolute;
+         min-width:100%;}
+.section_1,.section_2{margin-top:5%;text-align: center;}
+.section_para{width:40%;}
