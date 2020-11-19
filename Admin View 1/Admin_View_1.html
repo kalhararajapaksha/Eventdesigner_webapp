@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Admin_pannel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--animate on scroll-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--our externel style-->
+    <link href="Admin_View_1.css" rel="stylesheet">
+    <!--our externel js-->
+    <script type="text/javascript" src="Admin_View_1.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm  navbar-dark fixed-top nav_animation">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">EventHelper.com</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link " href="#section1" data-toggle="tooltip" title="Click here to go home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2" toggle="tooltip" title="Click here to see about us">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section3" toggle="tooltip" title="Click here if want help">Help</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">සිංහල</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">English</a>
+                </li>
+            </ul>
+        </div>
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search" data-toggle="tooltip" title=" Type here to search"><button type="submit" class="searchbtn" data-toggle="tooltip" title=" click to search">
+                    <i class="fa fa-search"></i>
+                </button>
+
+
+            </form>
+        </div>
+    </nav>
+    <!--nav end-->
+    <!--Content start-->
+    <div class="container">
+        <div class="row custom_row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4"></div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+            <input class="btn btn-success" type="button" value="Edit packages" name="edit_pack"/>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+    <div class="table-responsive">
+        <table class="table table-hover">
+        <thead>
+            <h1>Notifications</h1>
+            <tr>
+                <th>Date And Time</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="tr1" class="color_1">
+                <td>16/11/2020</td>
+                <td>Geethan</td>
+                <td>geethanimal0@gmail.com</td>
+                <td>0773163338</td>
+                <td>I want to know more details about gold package of Wedding category.</td>
+                <td><input class="btn btn-warning" type="button" value="Take action" /></td>
+            </tr>
+            <tr class="color_2">
+                <td>b</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><input class="btn btn-warning disabled" type="button" value="Take action" onclick="btnclick()" /></td>
+            </tr>
+            <tr class="color_2">
+                <td>c</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><input class="btn btn-warning disabled" type="button" value="Take action"/></td>
+            </tr>
+            <tr class="color_2">
+                <td>d</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><input class="btn btn-warning disabled" type="button" value="" /></td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+        </div>
+    <!--Content End-->
+    <!--footer-->
+    <div class="jumbotron footer" style="margin-bottom:0">
+        <div class="row">
+            <div class="col-sm-4">
+                <h5>Our Mission</h5>
+                <p>
+                    Our unique sense of wonder and romance combined with our knowledge of the area will create
+                    unforgettable memories for you in a city steeped in culture.
+                    EventHelper.com has been putting together upscale Weddings,
+                    Events and Travel Itineraries with thoughtful
+                    and personally curated details in the heart of the city.
+                </p>
+            </div>
+            <div class="col-sm-4">
+
+            </div>
+
+            <div class="col-sm-4">
+                <h5> Contact us : </h5>
+                (+94)77 333 555<br>
+                (+94)11 288 555 <br>
+                <h5> Address: </h5>
+                220 , Paradise Road, Co. 07
+                <h5>   Email : </h5>
+                Eventhelpercom@gmail.com
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#" class="fa fa-facebook"></a>
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="fa fa-twitter"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <a href="#">Terms of Use</a>
+                |
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+</body>
+</html>
