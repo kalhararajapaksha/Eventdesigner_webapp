@@ -1,5 +1,13 @@
-//Admin_View_1
 
-function onclick() {
-    var name = document.getElementsById("tr1").style.cssText = 'background-color:#99ff99';
+
+function takeaction(){
+window.confirm("Do you want to mark this record ?");
+var element = document.getElementById("tr4");
+element.classList.remove("table-danger");
+element.classList.add("table-success");
+var element = document.getElementById("tr4_btn");
+element.classList.remove("btn-warning");
+element.classList.add("btn-success");
+element.classList.add("disabled");
+element.value="Taken";
 }

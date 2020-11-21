@@ -52,6 +52,7 @@ margin-top:2%;
     width: auto;
     height: 100%;
     list-style: none;
+    
 }
     .items:hover {
         border-top: 1px solid transparent;
@@ -61,21 +62,30 @@ margin-top:2%;
         .items:hover .custom_a{text-decoration:none;
          font-size:20px;
          color:black;
-         margin-left:30px;
          background-color:white;
 
         }
-        
+
 .custom_a {
- color: #f2f2f2;
- text-decoration: none;
- font-size: 18px;
- height: 100%;
- width: 100%;
- display: inline-flex;
- margin-left: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    margin-left: 15px;
+    background: #030324;
+    border:none;
+}
+.active {
+    background-color: white;
+    color: rgb(1, 5, 34);
+    width:100%;
 }
 
+    .active .custom_a {
+        color: rgb(1, 5, 34);
+    }
 
 
 h1 {
@@ -218,13 +228,7 @@ h5{margin-top:50px;}
 .btn-hover:focus {
     outline: none;
 }
-.active {
-    background-color: white;
-}
-    .active .custom_a {
-        color: rgb(1, 5, 34);
-        margin-left:50px;
-    }
+
 
 /*footer start*/
 .footer {

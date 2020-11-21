@@ -2,22 +2,16 @@
 nav {
     background-color: rgb(21, 21, 48);
 }
-body {
-    background: linear-gradient(90deg, rgba(21,21,48,1) 0%, rgba(112,112,146,1) 10%, rgba(239,239,254,1) 20%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 65%, rgba(239,239,254,1) 80%, rgba(172,172,212,1) 90%, rgba(21,21,48,1) 100%);
-}
+
 /*content style start*/
 .table-responsive{
     margin-top:50px;
 }
-.color_1 {
-    background-color: #ff9999;
+.table_success {
+    background-color: #5cb85c;
 }
-.color_2 {
-    background-color: #99ff99;
-}
-.table thead{
-    background-color:black;
-    color:white;
+.table_danger {
+    background-color: #d9534f;
 }
 .custom_row{
 margin-top:100px;
