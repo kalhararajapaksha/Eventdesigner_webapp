@@ -1,0 +1,9 @@
+<div class="insert_data" >
+
+	<form class="img_upload " method="post" action="admin_view3.php?cat_idep=<?php echo $cat1_id_img; ?>&pkg_idep=<?php echo $pkg1_id_img; ?>" enctype="multipart/form-data" >
+		<input class="up_btn" type="file " name="img" value="ADD IMAGE" width=></input>
+		<button type="submit" name="upload">upload img</button>
+	</form>
+	
+</div>
+

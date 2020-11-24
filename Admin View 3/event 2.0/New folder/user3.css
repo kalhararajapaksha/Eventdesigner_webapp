@@ -1,0 +1,547 @@
+html,body
+{
+    height: 100%;
+    width: 100%;
+    color: #222;
+    letter-spacing: 0.7px;
+    font-family: Work Sans;
+}
+/*navigation bar*/
+nav 
+{
+    background-color:rgb(21, 21, 48);
+    font-size: 17px;
+}
+.navbar-brand
+{
+    color: rgb(255, 255, 255);
+}
+.navbar-brand:hover
+{
+    color: rgb(167, 203, 236);
+}
+.nav-link
+{
+    color:#e6d8ce;
+}
+button .navbar-toggler-icon
+{
+    color: #e6d8ce;
+}
+
+.searchbtn
+{
+    width: 30px;
+    height: 29px;
+}
+
+
+/*Heading - Package name */
+
+@media screen and (min-width: 601px) {
+    div.gold-box {
+      font-size: 70px;
+      font-weight: 500;
+      letter-spacing: 20px;
+    }
+  }
+  @media screen and (max-width: 601px) {
+    div.gold-box {
+      font-size: 50px;
+      font-weight: 500;
+      letter-spacing: 17px;
+    }
+  }
+ .gold-box
+{
+    margin-bottom: 10px;
+    margin-top: 80px;
+    text-align: center;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(top,#7c5d22, #e9ce86, #c58c21);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*Carousel Image Slider */
+
+.carousel-inner
+{
+    box-shadow: 14px 15px 35px -6px rgba(120,120,120,1);
+
+}
+.carousel-caption
+{
+    font-size: 30px;
+    font-family:"Parisienne" ;
+}
+.imgbtn
+{
+    font-family: work sans;
+}
+/*Description*/
+
+.desc
+{   width: 100%;
+    border: 2px solid rgb(249, 249, 250) ;
+    margin-top: 50px;
+    box-shadow: 14px 30px 41px -17px rgba(156,156,156,1);
+    height: 60.5vh;
+    background-color:#ffffff;
+    line-height:2;
+    text-align: left;
+   
+}
+
+
+ /*Gold image*/
+.des-left .parallax-1 
+{
+    background: url('g2.jpg') no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 60vh;
+    width: 45vw;
+    margin: 0;
+    margin-right: 20px;
+    left: 0;
+    float: left;
+}
+
+
+    /*Heading Description */
+.descrip
+{
+    text-align: center;
+    font-weight: 550;
+    margin-top: 90px;
+    color: rgb(2, 2, 65);
+
+}
+@media screen and (min-width: 601px) {
+    div.descrip {
+      font-size: 40px;
+    }
+  }
+  @media screen and (max-width: 601px) {
+    div.descrip {
+      font-size: 20px;
+    }
+  }
+
+/*Package includes*/
+
+  #pk p {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-family: Montserrat;
+    color: #11083d;
+    }
+    @media screen and (min-width: 601px) {
+        p.pkg {
+            font-size: 40px;
+       }
+    }
+    @media screen and (max-width: 601px) {
+        p.pkg {
+            font-size: 20px;
+       }
+    }
+
+
+
+/*the image division containing the price button*/
+
+.parallax-2
+{
+    background: url('i1.jpg') no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 60vh;
+    width: 100vw;
+    margin: 0;
+    margin-right: 20px;
+
+    
+}
+
+.pri
+{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+      /* "all of this just  for" */
+.sen
+{   
+    font-family: work sans;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px;
+    color:rgb(252, 252, 252) ;
+    font-weight: 500;
+
+}
+@media screen and (min-width: 601px) {
+    p.sen {
+        font-size: 35px;
+   }
+}
+@media screen and (max-width: 601px) {
+    p.sen {
+        font-size: 30px;
+   }
+}
+
+/*price button*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 601px) {
+    .pri .btn-hover.color-1 {
+        width: 340px;
+        font-size: 23px;
+        position: absolute;
+        left: 38.7%;
+        padding: 10px;
+   }
+}
+@media screen and (max-width: 601px) {
+    .pri .btn-hover.color-1 {
+        width: 200px;
+        font-size: 16px;
+        position: absolute;
+        left: 27%;
+        padding: 17px;
+   }
+} 
+
+/*price button , book your day button , contact me button */
+
+.buttons
+{
+
+    text-align: center;
+} 
+.btn-hover 
+{
+   
+    width: 300px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 80px;
+    text-align:center;
+    text-transform: uppercase;
+    font-family: Work Sans;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-hover:hover 
+{
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-hover:focus 
+{
+    outline: none;
+}
+.btn-hover.color-1 
+{
+    background-image: linear-gradient(to right,#fac518, #f7e8b6, #f1ecd4, #f5d442);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    
+}
+.btn-hover.color-2 
+{
+    background-image: linear-gradient(to right, rgb(21, 21, 48), #47a3be, #f5ebb4, #100453);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+/* pop up*/
+*
+{
+    margin:0;
+    padding: 0;
+}
+
+.popup-whole .container
+{
+background-color:rgb(255, 255, 255) ;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.popup
+{
+    font-family: Montserrat;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 100vh;
+    bottom:0;
+    right: 0;
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.74s ease ease-in-out;
+}
+@media screen and (min-width: 601px) {
+    div.popup {
+        height:98vh;
+        width: 100vw;
+   }
+}
+@media screen and (max-width: 601px) {
+    div.popup {
+        height:92vh;
+        width: 100vw;
+   }
+}
+.popup-inner
+{
+    position: relative;
+    bottom: -100vw;
+    right: -100vh;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    max-height: 599px;
+    width: 59%;
+    height:80%;
+    background-color: white;
+    transform: rotate(32deg);
+    transition: 0.74s ease-in-out;
+}
+
+
+.popup-form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width:59%;
+    height: 100%;
+    padding: 8px;
+    background-color:#e7ded7 ;
+    
+}
+.popup-form p
+{
+text-align: center;
+font-size: 2.7vw;
+font-weight: 500;
+margin-top: 0;
+text-transform: uppercase;
+color: rgb(20, 3, 66);
+}
+
+
+/*contact me button*/
+
+.conbtn-hover 
+{
+    width: 40%;
+   height: 50px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 40px; 
+    text-align:center;
+    position: absolute;
+    left: 48%;
+    top: 80%;
+    font-family:karla ;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.conbtn-hover:hover 
+{
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.conbtn-hover:focus 
+{
+    outline: none;
+}
+.conbtn-hover.color 
+{
+    background-image: linear-gradient(to right, rgb(21, 21, 48), #47a3be, #f5ebb4, #100453);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+
+.popup:target
+{
+    visibility: visible;
+    opacity: 1;
+}
+.popup:target .popup-inner
+{
+   bottom: 0;
+   right: 0;
+   transform: rotate(0);
+
+}
+
+.popup-close
+{
+    position: absolute;
+    right: -1rem;
+    top: -1rem;
+    width: 40px;
+    height: 40px;
+    padding: 6.5px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #110641;
+    z-index: 2;
+    color: white;
+    font-weight: 499;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*footer*/
+
+.footer
+{
+    margin-top: 100px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(21, 21, 48);
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    line-height: 2.0;
+
+}
+.row .col-sm-12
+{
+    text-align: center;
+}
+.row .col-md-4
+{
+    text-align: center;
+}
+.row .col-sm-4 h5
+{
+    color:#e6d8ce ;
+    text-transform: uppercase;
+    letter-spacing: 0;
+
+}
+
+.row .col-md-4 .fa
+{
+    background-color:#e6d8ce;
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+  a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+.Editbtn-1{
+     width: 23%;
+     height: 50px;
+     color: white;
+     position: absolute;
+     left: 61%;
+     font-size: 20px;
+     border: 0;
+     padding: 6px ;
+     text-align: center;
+     margin-top: 27px;
+}
+.Editbtn{
+    color: white;
+    position: absolute;
+    margin-top: 30px ;
+    width: 23%;
+    left: 39%;
+    border: 0;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.Editbtn-2{
+    color: white;
+    position: absolute;
+    margin-top: 20px ;
+    width: 23%;
+    left: 38%;
+    border: 0;
+    padding: 10px 10px;
+    font-size: 20px;
+
+    text-align: center;
+
+}
+
+.Editbtn:focus , .Editbtn-1:focus ,.Editbtn-2:focus 
+{
+    outline: none;
+}
+
+.Editbtn ,.Editbtn-1 , .Editbtn-2
+{
+    transition: all 0.3s ease;
+    display: inline-block;
+    border-radius: 40px;
+    box-shadow:7px 7px 20px 0px rgba(0,0,0,.1),4px 4px 5px 0px rgba(0,0,0,.1);
+
+    background:  rgb(21, 21, 48);
+    background: linear-gradient(0deg, rgb(24, 32, 150) 0%,  rgb(21, 21, 48) 100%);
+    border: none;
+} 
+
+.Editbtn:hover ,.Editbtn-1:hover , .Editbtn-2:hover
+{
+    background: rgb(21, 21, 48);
+background: linear-gradient(0deg, rgb(1, 47, 85) 0%,#011cb3 100%);
+}
